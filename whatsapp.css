@@ -1,0 +1,317 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: calc(100% - 20px);
+  background-color: #0a1014;
+  font-family: Roboto;
+}
+* {
+  font-family: Roboto;
+}
+img {
+  cursor: pointer;
+}
+.container {
+  height: calc(100% - 20px);
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: aqua;
+  display: flex;
+}
+
+.leftside {
+  width: 425px;
+  height: 100%;
+  background-color: #111b21;
+  margin: auto;
+  border-right: solid 1px #2d3941;
+}
+
+.leftop {
+  height: 60px;
+  width: 100%;
+  background-color: #202c33;
+  flex-direction: row;
+  display: flex;
+  gap: 12px;
+}
+#a1 {
+  margin-left: 160px;
+}
+#a1,
+#a3 {
+  margin-top: 20px;
+  width: 20px;
+  height: 20px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+#a2 {
+  margin-top: 18px;
+  margin-left: 16px;
+  width: 25px;
+  height: 25px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.container .leftside .leftop img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin: 8px 0 5px 15px;
+}
+
+.container .leftside .leftop .name {
+  color: #a7b4bb;
+  margin-top: 27px;
+  font-family: Roboto;
+  font-size: 9px;
+  color: #a7b4bb;
+  letter-spacing: 1px;
+  font-weight: 900;
+  cursor: default;
+}
+
+.rightside {
+  width: 975px;
+  height: 100%;
+  background-image: url(/Whatsapp/images/HlpKYq.png);
+  background-repeat: repeat;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightop {
+  height: 60px;
+  width: 100%;
+  background-color: #202c33;
+  cursor: pointer;
+}
+
+#search {
+  height: 13px;
+  width: 330px;
+  margin: 15px 25px 15px 10px;
+  background-color: #202c33;
+  outline: none;
+  border: solid 1px #111b21;
+  border-radius: 7px;
+  padding: 10px 25px 10px 40px;
+  color: rgb(196, 196, 196);
+  text-decoration: none;
+}
+
+.contacts {
+  width: 425px;
+  height: calc(100% - 125px);
+  background-color: transparent;
+  border-top: solid 1px #222d34;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.deneme a {
+  background-color: transparent;
+  width: 450px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  text-decoration: none;
+  color: #a7b4bb;
+}
+
+.deneme a:hover {
+  background-color: rgb(48, 49, 55);
+}
+
+a img {
+  height: 50px;
+  width: 50;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.person {
+  display: inline-flex;
+  margin-left: 10px;
+}
+.text {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+}
+.name {
+  color: #fff;
+  margin: 8px 0 0 20px;
+}
+#tik {
+  width: 15px;
+  height: 15px;
+  margin-top: 6px;
+  margin-right: 3px;
+}
+
+.genel {
+  display: flex;
+  flex-direction: column;
+}
+
+.cizgi {
+  height: 50px;
+  width: 350px;
+
+  margin-bottom: -15px;
+  border-bottom: solid 1px #2d3941;
+}
+
+.contacts::-webkit-scrollbar {
+  background-color: transparent;
+  width: 6px;
+  border-radius: 5px;
+}
+
+.contacts::-webkit-scrollbar-thumb {
+  background-color: #222e35;
+}
+
+#xxx {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin: 22px 0 0 20px;
+}
+
+.rightop {
+  border-left: solid 1px #2d3941;
+  display: flex;
+  flex-direction: row;
+}
+
+.rightside .rightop img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 7px 0 0 30px;
+}
+.rightside .rightop label {
+  margin: 23px 0 0 20px;
+  color: rgb(242, 239, 239);
+  font-family: Roboto;
+  font-weight: 500;
+  margin-right: 700px;
+}
+
+.chatt {
+  width: 100%;
+  height: calc(100% - 120px);
+  background-image: url(/Whatsapp/images/HlpKYq.png);
+  background-repeat: repeat;
+  background-size: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+  gap: 20px;
+}
+
+.chatt .bugun {
+  width: 80px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 0 auto 0 auto;
+  background-color: #182229;
+  padding-top: 6px;
+  padding-left: 17px;
+  box-sizing: border-box;
+  opacity: 0.85;
+}
+
+.chatt .bugun span {
+  text-align: center;
+  color: #939596;
+  font-size: 13px;
+}
+
+.chatt .sifre {
+  width: calc(100% - 10%);
+  height: 60px;
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 0px auto 0 auto;
+  background-color: #182229;
+  text-align: center;
+  line-height: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 0.85;
+}
+#lock {
+  width: 10px;
+  height: 10px;
+}
+.chatt .sifre span {
+  color: #fff;
+  text-align: center;
+  color: #fcd98f;
+  font-size: 13px;
+}
+
+.altchat {
+  width: 100%;
+  height: 60px;
+  background-color: #202c33;
+  display: flex;
+  padding: 15px 15px 15px 15px;
+  box-sizing: border-box;
+  border-top: solid 1px #2d3941;
+}
+
+#emoji,
+#attc {
+  width: 24px;
+  height: 24px;
+  opacity: 0.5;
+  margin-right: 20px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+#mic {
+  width: 24px;
+  height: 24px;
+  margin-left: 15px;
+  margin-right: 15px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#search2 {
+  height: 40px;
+  width: 800px;
+  background-color: #2d3941;
+  margin-right: 15px;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  margin-top: -7px;
+  padding: 0 20px 0 20px;
+  color: #fff;
+}
+
+#tik2,
+#dot {
+  width: 24px;
+  height: 24px;
+  margin-top: 20px;
+  opacity: 0.5;
+  cursor: pointer;
+}
