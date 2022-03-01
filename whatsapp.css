@@ -81,7 +81,7 @@ img {
 .rightside {
   width: 975px;
   height: 100%;
-  background-image: url(/Whatsapp/images/HlpKYq.png);
+  background-image: url(/images/HlpKYq.png);
   background-repeat: repeat;
   margin: auto;
   display: flex;
@@ -212,7 +212,7 @@ a img {
 .chatt {
   width: 100%;
   height: calc(100% - 120px);
-  background-image: url(/Whatsapp/images/HlpKYq.png);
+  background-image: url(/images/HlpKYq.png);
   background-repeat: repeat;
   background-size: 420px;
   display: flex;
